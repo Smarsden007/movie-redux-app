@@ -1,13 +1,7 @@
 {
-  "name": "codegraded-project-react",
+  "name": "movie-redux-app",
   "version": "0.0.1",
   "main": "index.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "devDependencies": {
     "@babel/core": "7.16.0",
     "@babel/plugin-transform-react-jsx": "7.16.0",
@@ -36,6 +30,7 @@
   "dependencies": {
     "@testing-library/user-event": "13.5.0",
     "axios": "0.24.0",
+    "build": "^0.1.4",
     "cors": "2.8.5",
     "css-loader": "^6.5.1",
     "express": "4.17.1",
@@ -47,9 +42,28 @@
     "react-dom": "17.0.2",
     "react-redux": "^7.2.6",
     "react-router-dom": "5.2.0",
+    "react-scripts": "^5.0.1",
     "redux": "^4.1.2",
     "sass": "^1.32.8",
     "style-loader": "^3.3.1",
     "styled-components": "5.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
